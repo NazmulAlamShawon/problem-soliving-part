@@ -16,3 +16,5 @@ for (const age of friendsAge){
 
 }
 console.log(lowestAge);
+
+// problem two  salary
