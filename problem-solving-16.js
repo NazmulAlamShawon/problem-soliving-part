@@ -19,8 +19,6 @@ function paperRequirements( totalCopy,perSec,thirdTotalCpoy){
   ;
 
 }
-
-
 var totalBook = 5 ; 
 var perPage = 100;
 var perSecPage = 200;
