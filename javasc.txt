@@ -1,0 +1,124 @@
+{
+	" Console Log":{
+		"prefix": "cl",
+		"body": "console.log($1)"
+		"description": "Console log"
+	}
+//for loop 
+	"for loop": {
+		"prefix": "fl",
+		"body": [
+		  "for (let i = 0; i < 5; i++) {",
+		  "  text += \"The number is \" + i + \"<br>\";",
+		  "}"
+		],
+		"description": "for loop"
+	  }
+
+	  //array function
+
+	  "array function": {
+		"prefix": "af",
+		"body": [
+		  "const arrName = [\"nam1\", \"name2\", \"name3\"];"
+		],
+		"description": "array function"
+	  }
+	  //condition
+	  "if condition": {
+		"prefix": "i",
+		"body": [
+		  "if (condition) {",
+		  "  //  block of code to be executed if the condition is true",
+		  "}"
+		],
+		"description": "if condition"
+	  }
+	  "object create": {
+		"prefix": "oc",
+		"body": [
+		  "const person = {",
+		  "  firstName: \"John\",",
+		  "  lastName: \"Doe\",",
+		  "  age: 50,",
+		  "  eyeColor: \"blue\"",
+		  "};"
+		],
+		"description": "object create"
+	  }
+	  "object products": {
+		"prefix": "op",
+		"body": [
+		  "const product = {",
+		  "     productName: \"Nokia\",",
+		  "     price: 1000,",
+		  "     };"
+		],
+		"description": "object products"
+	  }
+	  "const valu": {
+		"prefix": "cv",
+		"body": [
+		  "const varName = nameInput.value;"
+		],
+		"description": "const valu"
+	  }
+	  "parse flot": {
+		"prefix": "pf",
+		"body": [
+		  "const varName = parseFloat();"
+		],
+		"description": "parse flot"
+	  }
+	  "getElementbyID": {
+		"prefix": "dg",
+		"body": [
+		  "const varName = document.getElementById('idName');"
+		],
+		"description": "getElementbyID"
+	  }
+	  "if else": {
+		"prefix": "i1",
+		"body": [
+		  "if (condition1) {",
+		  "  //  block of code to be executed if condition1 is true",
+		  "} else if (condition2) {",
+		  "  //  block of code to be executed if the condition1 is false and condition2 is true",
+		  "} else {",
+		  "  //  block of code to be executed if the condition1 is false and condition2 is false",
+		  "}"
+		],
+		"description": "if else"
+	  }
+	  "total": {
+		"prefix": "sum",
+		"body": [
+		  " const result = num1 + num2;"
+		],
+		"description": "total"
+	  }
+	  "innerText": {
+		"prefix": "it",
+		"body": [
+		  " const varname = constName.innerText;"
+		],
+		"description": "innerText"
+	  }
+	  "get element add evnet": {
+		"prefix": "ga",
+		"body": [
+		  "document.getElementById('').addEventListener('click',function(){",
+		  "",
+		  " })"
+		],
+		"description": "get element add evnet"
+	  }
+	  "clear input": {
+		"prefix": "ci",
+		"body": [
+		  "nameInput.value = '';"
+		],
+		"description": "clear input"
+	  }
+}
+
