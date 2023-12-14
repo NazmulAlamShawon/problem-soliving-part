@@ -19,3 +19,7 @@ console.log(randomFindsJump(5,100));
 function randomFindsJump(min,max,){
     return Math.floor(Math.random() * (max - min + 20) ) + min;
 }
+
+function randomFindsJump(min,max,){
+    return Math.floor(Math.random() * (max - min + 20) ) + min;
+}
